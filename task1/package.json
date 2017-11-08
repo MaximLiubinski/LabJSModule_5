@@ -1,0 +1,15 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "usejasmine",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maksim Liubinski",
+  "license": "ISC"
+}
