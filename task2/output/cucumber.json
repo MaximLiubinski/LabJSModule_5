@@ -1,0 +1,725 @@
+[
+  {
+    "elements": [
+      {
+        "id": "bmwclubby;visit-forum-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Visit forum page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 25497932435
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click Main button",
+            "result": {
+              "status": "passed",
+              "duration": 1112916699
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page title should be \"BMW Club Belarus e.V. / Белорусский Клуб БМВ | Белорусский Клуб БМВ. Клубная жизнь, активный отдых, техническая информация, новости.\"",
+            "result": {
+              "status": "passed",
+              "duration": 12912309
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click Forum button",
+            "result": {
+              "status": "passed",
+              "duration": 4237658610
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page title should be \"BMW Club Belarus • Белорусский Клуб БМВ\"",
+            "result": {
+              "status": "passed",
+              "duration": 6937693
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:73"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "bmwclubby;checking-partners-pages",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Checking partners pages",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Partners page",
+            "result": {
+              "status": "passed",
+              "duration": 1479868887
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click partner 'bmwClubService'",
+            "result": {
+              "status": "passed",
+              "duration": 2224336893
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page title should be 'BMW Club Service - Партнёры Клуба BMW - Форум Белорусского Клуба БМВ / BMW Club Belarus forum'",
+            "result": {
+              "status": "passed",
+              "duration": 8567911
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:79"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "bmwclubby;checking-partners-pages",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Checking partners pages",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Partners page",
+            "result": {
+              "status": "passed",
+              "duration": 894485426
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click partner 'bayerncraft'",
+            "result": {
+              "status": "passed",
+              "duration": 6527389547
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page title should be 'Страница 404 - Байернкрафт - официальный дилер BMW'",
+            "result": {
+              "status": "passed",
+              "duration": 8239473
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:79"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "bmwclubby;checking-partners-pages",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Checking partners pages",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Partners page",
+            "result": {
+              "status": "passed",
+              "duration": 923679959
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click partner 'alexPremiumAuto'",
+            "result": {
+              "status": "passed",
+              "duration": 11349145518
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page title should be 'Автосервис АлексПремиумАвто (Минск)'",
+            "result": {
+              "status": "passed",
+              "duration": 13386149
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:79"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "bmwclubby;checking-partners-pages",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Checking partners pages",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Partners page",
+            "result": {
+              "status": "passed",
+              "duration": 938608801
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click partner 'lavto'",
+            "result": {
+              "status": "passed",
+              "duration": 3471875173
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page title should be 'СТО LAVTO -  ремонт автомобилей. Обслуживание и диагностика иномарок - Главная'",
+            "result": {
+              "status": "failed",
+              "duration": 17374454,
+              "error_message": "AssertionError: expected 'СТО LAVTO - ремонт автомобилей. Обслуживание и диагностика иномарок - Главная' to equal 'СТО LAVTO -  ремонт автомобилей. Обслуживание и диагностика иномарок - Главная'\n    at browser.getTitle.then (C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:81:36)\n    at ManagedPromise.invokeCallback_ (C:\\Users\\Максим\\WebstormProjects\\Task2\\node_modules\\selenium-webdriver\\lib\\promise.js:1366:14)\n    at TaskQueue.execute_ (C:\\Users\\Максим\\WebstormProjects\\Task2\\node_modules\\selenium-webdriver\\lib\\promise.js:2970:14)\n    at TaskQueue.executeNext_ (C:\\Users\\Максим\\WebstormProjects\\Task2\\node_modules\\selenium-webdriver\\lib\\promise.js:2953:27)\n    at asyncRun (C:\\Users\\Максим\\WebstormProjects\\Task2\\node_modules\\selenium-webdriver\\lib\\promise.js:2813:27)\n    at C:\\Users\\Максим\\WebstormProjects\\Task2\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)"
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:79"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "bmwclubby;sign-in-with-invalid-creds",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Sign in with invalid creds",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Forum page",
+            "result": {
+              "status": "passed",
+              "duration": 845010101
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 313109372
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Enter username 'wrong'",
+            "result": {
+              "status": "passed",
+              "duration": 931921713
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Enter password 'wrong'",
+            "result": {
+              "status": "passed",
+              "duration": 306967115
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click submit button",
+            "result": {
+              "status": "passed",
+              "duration": 704264226
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Page title should be \"Войти - Форум Белорусского Клуба БМВ / BMW Club Belarus forum\"",
+            "result": {
+              "status": "passed",
+              "duration": 7560073
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page contains error message \"Логин или пароль неверны.\"",
+            "result": {
+              "status": "passed",
+              "duration": 87942829
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:65"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "bmwclubby;sign-in-with-invalid-creds",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Sign in with invalid creds",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Forum page",
+            "result": {
+              "status": "passed",
+              "duration": 891908666
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 455245408
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Enter username 'Maksim'",
+            "result": {
+              "status": "passed",
+              "duration": 668571344
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Enter password '123456'",
+            "result": {
+              "status": "passed",
+              "duration": 262981446
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click submit button",
+            "result": {
+              "status": "passed",
+              "duration": 465716951
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Page title should be \"Войти - Форум Белорусского Клуба БМВ / BMW Club Belarus forum\"",
+            "result": {
+              "status": "passed",
+              "duration": 7546672
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page contains error message \"Логин или пароль неверны.\"",
+            "result": {
+              "status": "passed",
+              "duration": 83757804
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:65"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "bmwclubby;sign-in-with-invalid-creds",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Sign in with invalid creds",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Forum page",
+            "result": {
+              "status": "passed",
+              "duration": 826385187
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 400332316
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Enter username 'Liubinski'",
+            "result": {
+              "status": "passed",
+              "duration": 673226503
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Enter password '654321'",
+            "result": {
+              "status": "passed",
+              "duration": 273296467
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click submit button",
+            "result": {
+              "status": "passed",
+              "duration": 472897837
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Page title should be \"Войти - Форум Белорусского Клуба БМВ / BMW Club Belarus forum\"",
+            "result": {
+              "status": "passed",
+              "duration": 8317305
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Page contains error message \"Логин или пароль неверны.\"",
+            "result": {
+              "status": "passed",
+              "duration": 65869310
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:65"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "bmwclubby;sign-in-by-valid-user",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Sign in by valid user",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on Forum page",
+            "result": {
+              "status": "passed",
+              "duration": 893127482
+            },
+            "line": 37,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 353250999
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Enter username \"Agressor Jr.\"",
+            "result": {
+              "status": "passed",
+              "duration": 669088520
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Enter password \"paroll\"",
+            "result": {
+              "status": "passed",
+              "duration": 232528184
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click submit button",
+            "result": {
+              "status": "passed",
+              "duration": 1767943946
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Page title should be \"BMW Club Belarus • Белорусский Клуб БМВ\"",
+            "result": {
+              "status": "passed",
+              "duration": 8143393
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\Users\\Максим\\WebstormProjects\\Task2\\step_definitions\\index.js:73"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@important",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "bmwclubby",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "BMWClubBy",
+    "tags": [
+      {
+        "name": "@important",
+        "line": 1
+      }
+    ],
+    "uri": "C:\\Users\\Максим\\WebstormProjects\\Task2\\features\\validation.download.feature"
+  }
+]
