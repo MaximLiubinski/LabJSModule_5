@@ -8,6 +8,7 @@ class Header{
         this.about =  element(by.css("a[title = 'Overview of Selenium']"));
         this.searchFild =  element(by.css("#q"));
         this.searchGo =  element(by.css("#submit"));
+        this.donate = element(by.css('input[alt="PayPal - The safer, easier way to pay online!"]'))
     }
 }
 module.exports = Header;

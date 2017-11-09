@@ -1,8 +1,9 @@
 "use strict";
 
 exports.config = {
+    framework: 'jasmine',
     directConnect: true,
-    baseUrl: 'https://protonmail.com/',
+    baseUrl: 'http://www.seleniumhq.org/',
     capabilities: {
         browserName: 'chrome',
         platform: "Windows 8.1",
