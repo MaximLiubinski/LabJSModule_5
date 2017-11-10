@@ -1,8 +1,10 @@
-const Header = require('./header.js');
+const Header = require('./parts/header');
+const Sponsors = require('./parts/sponsors');
 
-class ProjectsPage extends Header{
+class ProjectsPage {
     constructor(){
-        super();
+        this.header = new Header();
+        this.sponsors = new Sponsors();
         this.url = "http://www.seleniumhq.org/projects/";
         this.webDriver = element(by.css('h3 a[href="webdriver/"]'));
         this.grid = element(by.css('h3 a[href="grid/"]'));

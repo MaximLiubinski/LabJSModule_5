@@ -1,5 +1,5 @@
 const World = require("../pages/world");
-const Header = require("../pages/header");
+const Header = require("../pages/parts/header");
 const world = new World();
 const header = new Header();
 

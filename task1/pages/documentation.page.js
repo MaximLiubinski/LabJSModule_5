@@ -1,8 +1,10 @@
-const Header = require('./header.js');
+const Header = require('./parts/header.js');
+const Sponsors = require('./parts/sponsors');
 
-class DocumentationPage extends Header{
+class DocumentationPage {
     constructor(){
-        super();
+        this.header = new Header();
+        this.sponsors = new Sponsors();
         this.url = "http://www.seleniumhq.org/docs/";
         this.note = element(by.css('li.toctree-l1 a[href="00_Note_to-the-reader.jsp"]'));
         this.introduction = element(by.css('li.toctree-l1 a[href="01_introducing_selenium.jsp"]'));

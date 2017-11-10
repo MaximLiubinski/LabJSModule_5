@@ -1,7 +1,7 @@
 const World = require("../pages/world");
-const Header = require("../pages/header");
+const Sponsors = require("../pages/parts/sponsors");
 const world = new World();
-const header = new Header();
+const sponsors = new Sponsors();
 
 beforeEach(()=>{
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
@@ -9,7 +9,7 @@ beforeEach(()=>{
 
 describe("Donate", () => {
     afterEach(() => {
-        header.donate.click();
+        sponsors.donate.click();
         browser.wait(EC.titleIs('Donate'), 5000);
         browser.element(by.css("input#currencyAmount")).click().sendKeys("123");
         browser.element(by.css("button#guestPaymentBtn")).click();
